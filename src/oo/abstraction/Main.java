@@ -8,7 +8,7 @@ public class Main {
 		c.setMilage(25000);
 		//
 		float current = c.addMilage(80);
-		System.out.println("目前里成為:"+current);
+		System.out.println("目前里程為:"+current);
 	}
 
 }
