@@ -24,7 +24,7 @@ public class CarTester {
 		for (i = 0; i < 3; i++) {
 			System.out.println(cars[i].name);
 		}
-		System.out.println(i);
+		
 		
 
 	class AA {
