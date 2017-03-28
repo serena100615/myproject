@@ -25,7 +25,6 @@ public class CarTester {
 			System.out.println(cars[i].name);
 		}
 		
-		
 
 	class AA {
 
