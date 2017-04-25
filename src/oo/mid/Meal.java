@@ -13,5 +13,7 @@ public class Meal {
 
 	public void print() {
 		System.out.println();
+		
+		
 	}
 }
