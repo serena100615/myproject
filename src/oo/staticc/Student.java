@@ -8,6 +8,7 @@ public class Student {
 	static int pass = 60;
 	static {
 		System.out.println("STATIC!!!");
+//		System.out.println(english); why?
 		System.out.println(pass);
 	}
 
