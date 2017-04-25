@@ -8,6 +8,9 @@ public class Car {
 	String type;
 	int status;
 	float milage;
+	public Car(String brand, String name, String type){
+		this(brand,0,name,type);
+	}
 
 	public Car(String brand, int cc, String name, String type) {
 		this.brand = brand;
