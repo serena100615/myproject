@@ -11,8 +11,13 @@ public class Student {
 //		System.out.println(english); why?
 		System.out.println(pass);
 	}
+	
+	Student(){
+		
+	}
 
-	public Student(int english, int math, int chinese) {
+
+public Student(int english, int math, int chinese) {
 		super();
 		this.english = english;
 		this.math = math;
