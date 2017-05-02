@@ -10,6 +10,7 @@ public GraduateStudent(int english, int math, int chinese) {
 	this.math = math;
 	this.chinese = chinese;
 }
+@Override
 public void print() {
 	System.out.println(getScore(english) + "\t" + getScore(math) + "\t" + getScore(chinese)+thesis);
 }

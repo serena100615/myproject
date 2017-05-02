@@ -3,6 +3,8 @@ package oo.test;
 import java.util.ArrayList;
 
 import oo.abstraction.Car;
+import oo.staticc.GraduateStudent;
+import oo.staticc.Student;
 
 public class Tester {
 
@@ -23,7 +25,16 @@ public class Tester {
 		String data = a.get(3);
 	 // int n = (int)a.get(4);
 		
-	
+	ArrayList<Student> list = new ArrayList<>();
+	list.add(new Student(58, 98,66));
+	list.add(new Student(67,56,77));
+	list.add(new Student(88,99,50));
+	list.add(new GraduateStudent(66,87,66));
+	list.add(new GraduateStudent(78,89,60));
+	for (int i=0;i<list.size();i++){
+		Student stu = list.get(i);
+		stu.print();
+	}
 		
 	}
 
