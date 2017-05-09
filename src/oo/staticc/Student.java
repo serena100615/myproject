@@ -1,5 +1,7 @@
 package oo.staticc;
 
+import java.util.ArrayList;
+
 public class Student {
 
 	int english;
@@ -38,5 +40,10 @@ public Student(int english, int math, int chinese) {
 		} else {
 			return String.valueOf(score);
 		}
+	}
+	
+	public String toString(){
+		return
+				"eng:"+english+"\n"+"math:"+math+"\n"+"chinese:"+chinese;
 	}
 }

@@ -35,6 +35,7 @@ public class Tester {
 		Student stu = list.get(i);
 		stu.print();
 	}
+	
 		
 	}
 
