@@ -41,7 +41,7 @@ public Student(int english, int math, int chinese) {
 			return String.valueOf(score);
 		}
 	}
-	
+	@Override
 	public String toString(){
 		return
 				"eng:"+english+"\n"+"math:"+math+"\n"+"chinese:"+chinese;
