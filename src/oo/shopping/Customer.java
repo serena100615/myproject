@@ -8,5 +8,7 @@ public class Customer {
 		this.amount = amount;
 
 	}
-
+	public void print() {
+		System.out.println("一般客戶"+" 消費:"+amount);
+			}
 }
