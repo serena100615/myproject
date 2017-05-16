@@ -9,6 +9,6 @@ public class Customer {
 
 	}
 	public void print() {
-		System.out.println("一般客戶"+" 消費:"+amount);
+		System.out.println(amount+"\t"+amount+"\t0");
 			}
 }

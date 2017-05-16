@@ -12,7 +12,7 @@ public class SilverCustomer extends Customer {
 	}
 
 	public void print() {
-		System.out.println("銀級會員"+" 消費:"+amount+" 折扣:"+getAmount(amount));
+		System.out.println(amount+"\t"+getAmount(amount)+"\t0");
 
 	}
 }

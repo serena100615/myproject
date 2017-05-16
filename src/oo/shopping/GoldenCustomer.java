@@ -14,7 +14,7 @@ public class GoldenCustomer extends SilverCustomer{
 	}
 
 	public void print() {
-		System.out.println("金級會員"+" 消費:"+amount+" 折扣:"+getAmount(amount)+" 還原金:"+getReturn(amount));
+		System.out.println(amount+"\t"+getAmount(amount)+"\t"+getReturn(amount));
 
 	}
 }
