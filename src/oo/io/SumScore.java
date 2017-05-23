@@ -21,6 +21,7 @@ public class SumScore {
 
 			}
 		}
+		
 		System.out.println(sum);
 
 	}
